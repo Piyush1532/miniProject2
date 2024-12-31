@@ -1,0 +1,4 @@
+.env
+node_modules
+config/development.json
+config/keys.js
