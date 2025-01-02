@@ -26,7 +26,8 @@ let {fullname,email,password}=req.body
 
 
 router.get("/admin", (req, res) => {
-  res.render("createproducts")
+  let sucess=req.flash("sucess")
+  res.render("createproducts",{sucess})
 });
 
 module.exports = router;
